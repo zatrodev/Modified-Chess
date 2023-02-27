@@ -1,0 +1,29 @@
+:root {
+    --board-size: 560px;
+    --tile-size: 70px;
+}
+
+.chessboard {
+    width: var(--board-size);
+    height: var(--board-size);
+    margin: auto;
+    border: 25px solid #333;
+}
+.black {
+    float: left;
+    width: var(--tile-size);
+    height: var(--tile-size);
+    background-color: #999;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}
+.white {
+    float: left;
+    width: var(--tile-size);
+    height: var(--tile-size);
+    background-color: #fff;
+    text-align:center;
+    display: table-cell;
+    vertical-align:middle;
+}

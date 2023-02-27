@@ -1,0 +1,1 @@
+// can copy any piece's move for every turn (except for dragon)

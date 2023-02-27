@@ -1,0 +1,1 @@
+// can move like every piece of the traditional chess game
